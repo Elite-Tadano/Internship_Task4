@@ -36,7 +36,9 @@
 2. Run:
    ```cmd
    dism /online /Enable-Feature /FeatureName:TelnetClient
-   ```
+```
+
+![image](https://github.com/user-attachments/assets/b0a90b23-9a2c-4490-a541-9c41ee53fcf1)
 
 ### Step 5: Test Port 23 Block
 Run this in Command Prompt:
@@ -46,6 +48,8 @@ telnet localhost 23
 If firewall is correctly blocking the port:
 - Connection fails or times out
 - No Telnet banner or prompt appears
+
+![image](https://github.com/user-attachments/assets/810cf688-38a5-4523-a65f-dc9dfb68a821)
 
 ## What I Learned
 - How to configure inbound firewall rules
