@@ -23,9 +23,9 @@
 2. Select **Port**, click **Next**
 3. Choose **TCP**, enter port `23`, click **Next**
 ![image](https://github.com/user-attachments/assets/237afcb1-f67d-4266-bc61-0d63db1190e0)
-5. Choose **Block the connection**, click **Next**
-6. Select all profiles (Domain, Private, Public), click **Next**
-7. Name the rule **"Block Telnet Port 23"** → click **Finish**
+4. Choose **Block the connection**, click **Next**
+5. Select all profiles (Domain, Private, Public), click **Next**
+6. Name the rule **"Block Telnet Port 23"** → click **Finish**
 
 ---
 
@@ -40,7 +40,7 @@
 
 ![image](https://github.com/user-attachments/assets/b0a90b23-9a2c-4490-a541-9c41ee53fcf1)
 
-### Step 5: Test Port 23 Block
+### Step 4: Test Port 23 Block
 Run this in Command Prompt:
 ```cmd
 telnet localhost 23
